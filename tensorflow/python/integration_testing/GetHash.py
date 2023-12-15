@@ -1,7 +1,7 @@
 import hashlib
 
 def hash_password(password):
-    # Insecure: Using MD5 for hashing passwords
+    # Insecure: Using MD5 for hashing password
     hashed_password = hashlib.md5(password.encode()).hexdigest()
     return hashed_password
 
